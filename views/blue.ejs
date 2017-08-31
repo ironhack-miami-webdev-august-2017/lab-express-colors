@@ -1,0 +1,13 @@
+<h2>COLORS</h2>
+
+<ul>
+  <% listOfColors.forEach((blueColor) => {  %>
+     <% if (blueColor.category === "blue"){ %>
+      <h4 style="background-color: <%= blueColor.hex%>; "> This color is: <%= blueColor.hex %>  </h4>
+<%   }  %>
+     <h2> <% blueColor.category %>  </h2>
+
+
+
+  <%  }) %>
+</ul>

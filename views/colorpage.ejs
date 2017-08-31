@@ -1,0 +1,16 @@
+<h2>COLORS</h2>
+
+<ul>
+  <% listOfColors.forEach((oneColor) => {  %>
+   <li>
+     <h2> <%= oneColor.keyword %>  </h2>
+     <div class="">
+
+          <h4 style='background-color: <%= oneColor.hex%>; width: 20%;   '> This color is: <%= oneColor.hex %>  </h4>
+
+     </div>
+
+   </li>
+
+  <%  }) %>
+</ul>

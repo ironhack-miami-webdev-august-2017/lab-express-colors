@@ -1,0 +1,35 @@
+div{
+  height: 220px;
+  border-bottom: 1px solid black;
+
+
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+  width: 300px;
+  height: 304px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  text-align: center;
+  
+}
+
+a{
+  margin-left: 10px;
+  text-decoration: none;
+  float: right;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-left: 40px;
+}
+
+footer{
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+<h2> Colors </h2>
+<ul>
+  <% listOfColors.forEach(color => { %>
+    <li>
+      <div class="div" style="background-color:<%=color.hex%>;"></div>
+      <p> <%= color.keyword %> </p>
+      <p> <%= color.hex %></p>
+    </li>
+  <% }); %>
+</ul>

@@ -1,0 +1,11 @@
+<%- include ../partials/header %>
+
+<h2>Colors</h2>
+<ul style="width: 25%">
+  <% colors.forEach(color => { %>
+    <li style="list-style-type: none">
+      <div style="background-color: <%-color.hex%>; padding: 100px; width: 100px"></div>
+      <div style="text-align: center; padding: 20px 0"><%= color.keyword %></div> 
+    </li>
+  <% }); %>
+</ul>

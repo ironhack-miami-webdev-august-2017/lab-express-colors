@@ -1,0 +1,9 @@
+<div>
+  <% colors.forEach(color => { %>
+    <% let blue; %>
+    <% if (color.category === 'blue') { %>
+      <% blue = color; %>
+    <% } %>
+    <div><%= blue %></div>
+  <% }); %>
+</div>

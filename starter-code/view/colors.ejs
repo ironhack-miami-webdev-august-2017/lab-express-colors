@@ -1,0 +1,20 @@
+<h2>Colors</h2>
+
+<ul>
+  <% colors.forEach((color) => { %>
+    <li>
+      <div class = "outerbox">
+        <div class = "colorbox" style="background-color: <%= color.keyword %>">
+        </div>
+        <div class = "description">
+          <p class = "name">
+            <%= color.category %>
+          </p>
+          <p class = "hex">
+            <%= color.hex %>
+          </p>
+        </div>
+      </div>
+   </li>
+  <% }) %>
+</ul>

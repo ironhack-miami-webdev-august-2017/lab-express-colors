@@ -1,0 +1,18 @@
+li {
+  display: inline-block;
+}
+
+.outerbox {
+  width: 308px;
+  height: 324px;
+}
+
+.colorbox {
+  width: 308px;
+  height: 220px
+}
+
+.description {
+  width: 308px;
+  height: 104px;
+}

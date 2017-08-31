@@ -1,0 +1,14 @@
+<h2> Color Category : Blue </h2>
+
+
+<ul>
+  <% colorsdb.forEach((oneColor) => { %>
+    <% if(oneColor.category === 'blue'){ %>
+      <li>
+        <div style="background-color: <%= oneColor.keyword %>"> </div>
+        <p>  <%= oneColor.keyword %><br /><%= oneColor.hex %> </p>
+      </li>
+    <% } %>
+  <% }); %>
+
+</ul>
